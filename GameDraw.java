@@ -35,7 +35,6 @@ public final class GameDraw implements KeyListener {
    // keyboard objects
    private LinkedList<Direction> queuedMoves = new LinkedList<Direction>();
    private TreeSet<Integer> keysDown = new TreeSet<Integer>();
-   // checkstyle objects (dO nOT uSe mAGiC nUMBerS)
    private static final int ESCAPE = 27;
    private static final int LEFT = 37; 
    private static final int UP = 38; 
